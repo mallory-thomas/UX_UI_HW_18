@@ -61,17 +61,38 @@ button {
     margin-bottom: 50px;
     margin-top: 20px;
 }
-h1 {
-    font-family: 'Lulo Clean', sans-serif;
+.menu {
+    font-family: 'Lora', serif;
+    color: #000000
+}
+#BFKmock {
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: none;
+}
+#FFmock {
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: none;
+}
+h2 {
+    font-family: 'Lora', serif;
     font-size: 40px;
     color: #000000;
     text-align: center;
     padding-top: 80px;
 }
-#skillsgraph img {
-    width: 70%;
-    padding-top: 30px;
-    padding-bottom: 50px;
+h4 {
+    font-family: 'Lulo Clean', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    text-align: center;
 }
 .center {
     display: block;
@@ -95,18 +116,8 @@ h1 {
     background-color: #edcece;
     width: 100%;
 }
-.menu {
-    font-family: 'Lora', serif;
-    color: #000000
-}
-.flexContainer {
-    width: 100%
-}
-p {
-    text-align: center;
-}
 @media only screen and (max-width: 600){
-    h1 {
+    h2 {
         font-size: 30px;
     }
 }
